@@ -17,7 +17,7 @@
  *
  */
 
-@import url(http://fonts.googleapis.com/css?family=Convergence|Inconsolata:400,700|Gentium+Book+Basic:400,700);
+@import url(http://fonts.googleapis.com/css?family=Convergence|Inconsolata:400,700|Gentium+Book+Basic:700);
 
 body {
   background-color: #002b36;
@@ -35,15 +35,13 @@ body {
   margin: 50px;
 }
 
-.content h1 {
-  color: #859900;
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+  color: #586e75;
   font-family: 'Gentium Book Basic';
 }
 
-.content h2 {
-  color: #586e75;
-  font-family: 'Gentium Book Basic';
+h1 {
+  color: #859900;
 }
 
 #footer {

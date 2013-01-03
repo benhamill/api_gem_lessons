@@ -1,5 +1,6 @@
 <!SLIDE>
 # My Presentation
+## Ben Hamill
 
 <!SLIDE bullets incremental>
 # Bullet Points
