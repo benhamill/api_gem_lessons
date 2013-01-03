@@ -24,15 +24,29 @@ body {
   font-family: 'Convergence';
 }
 
-.slide {
+#preso, .slide {
   background-color: #fdf6e3;
   color: #657b83;
+
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
 .content .box {
   background-color: #eee8d5;
   color: #586e75;
   margin: 50px;
+  padding: 20px;
+
+  -webkit-box-shadow: 5px 5px 5px 0px #586e75;
+          box-shadow: 5px 5px 5px 0px #586e75;
+
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,13 +54,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Gentium Book Basic';
 }
 
-h1 {
-  color: #859900;
+h1 { color: #cb4b16; }
+
+h6 {
+  color: #268bd2;
+  font-size: 5em;
+  text-align: center;
+  margin: 0.5em 0;
 }
 
 #footer {
   background-color: #eee8d5;
   color: #586e75;
+  display: none;
 }
 
 pre.sh_sourceCode {
