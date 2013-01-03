@@ -16,5 +16,5 @@
     def what(opts={})
       @wut = 'wut'
       /wat/
-      12
+      10
     end

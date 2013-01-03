@@ -17,8 +17,11 @@
  *
  */
 
+@import url(http://fonts.googleapis.com/css?family=Convergence|Inconsolata:400,700|Gentium+Book+Basic:400,700);
+
 body {
   background-color: #002b36;
+  font-family: 'Convergence';
 }
 
 .slide {
@@ -34,10 +37,13 @@ body {
 
 .content h1 {
   color: #859900;
+  font-weight: bold;
+  font-family: 'Gentium Book Basic';
 }
 
 .content h2 {
   color: #586e75;
+  font-family: 'Gentium Book Basic';
 }
 
 #footer {
@@ -48,6 +54,16 @@ body {
 pre.sh_sourceCode {
   background-color: #002b36;
   color: #839496;
+  font-family: 'Inconsolata';
+
+
+  -webkit-box-shadow: 5px 5px 5px 0px #586e75;
+          box-shadow: 5px 5px 5px 0px #586e75;
+
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
 pre.sh_sourceCode .sh_keyword { color: #268bd2; }
