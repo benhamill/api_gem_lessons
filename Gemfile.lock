@@ -3,7 +3,7 @@ GEM
   specs:
     blankslate (2.1.2.4)
     bluecloth (2.2.0)
-    gli (2.5.3)
+    gli (1.6.0)
     json (1.7.6)
     nokogiri (1.5.6)
     parslet (1.5.0)
@@ -29,6 +29,6 @@ PLATFORMS
 
 DEPENDENCIES
   bluecloth
-  gli
+  gli (= 1.6.0)
   nokogiri
   showoff
