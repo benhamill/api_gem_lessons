@@ -34,6 +34,21 @@ body {
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
+/* .splash { */
+/*   position: absolute; */
+/*   width: 1024px; */
+/*   height: 768px; */
+/*   background-color: #268BD2; */
+/*   top: 0; */
+/*   left: 0; */
+/*   z-index: -1; */
+/*  */
+/*   -webkit-border-radius: 5px; */
+/*           border-radius: 5px; */
+/*  */
+/*   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; */
+/* } */
+
 .content .box {
   background-color: #eee8d5;
   color: #586e75;

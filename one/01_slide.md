@@ -1,4 +1,5 @@
 <!SLIDE>
+<div class="splash"></div>
 # My Presentation
 ## Ben Hamill
 
