@@ -17,7 +17,7 @@
  *
  */
 
-@import url(http://fonts.googleapis.com/css?family=Convergence|Inconsolata:400,700|Gentium+Book+Basic:700);
+@import url(http://fonts.googleapis.com/css?family=Convergence|Droid+Sans+Mono|Gentium+Book+Basic:700);
 
 body {
   background-color: #002b36;
@@ -49,6 +49,32 @@ body {
 /*   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; */
 /* } */
 
+h1, h2, h3, h4, h5, h6 {
+  color: #586e75;
+  font-family: 'Gentium Book Basic';
+  margin: 0 50px;
+}
+
+h1 { color: #cb4b16; }
+
+h6 {
+  color: #268bd2;
+  font-size: 5em;
+  text-align: center;
+  margin: 0.5em 50px;
+}
+
+.subsection h1 {
+  color: #859900;
+  background-color: transparent;
+}
+
+#footer {
+  background-color: #eee8d5;
+  color: #586e75;
+  display: none;
+}
+
 .content .box {
   background-color: #eee8d5;
   color: #586e75;
@@ -64,30 +90,32 @@ body {
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #586e75;
-  font-family: 'Gentium Book Basic';
+.note {
+  font-size: 0.5em;
+  font-style: italic;
+  color: #93a1a1;
 }
 
-h1 { color: #cb4b16; }
+code {
+  border: 0.07em solid #eee8d5;
+  padding: 0.1em 0.15em;
+  font-family: 'Droid Sans Mono';
 
-h6 {
-  color: #268bd2;
-  font-size: 5em;
-  text-align: center;
-  margin: 0.5em 0;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
-#footer {
-  background-color: #eee8d5;
-  color: #586e75;
-  display: none;
+pre code {
+  border: none;
+  padding: 0;
 }
 
-pre.sh_sourceCode {
+pre, pre.sh_sourceCode {
   background-color: #002b36;
   color: #839496;
-  font-family: 'Inconsolata';
+  font-family: 'Droid Sans Mono';
 
 
   -webkit-box-shadow: 5px 5px 5px 0px #586e75;
@@ -100,10 +128,29 @@ pre.sh_sourceCode {
 }
 
 pre.sh_sourceCode .sh_keyword { color: #268bd2; }
+pre.sh_sourceCode .sh_preproc { color: #268bd2; }
 pre.sh_sourceCode .sh_type { color: #859900; }
-pre.sh_sourceCode .sh_string { color: #2aa198; }
+pre.sh_sourceCode .sh_string {
+  color: #2aa198;
+  font-family: 'Droid Sans Mono';
+}
 pre.sh_sourceCode .sh_regexp { color: #cb4b16; }
 pre.sh_sourceCode .sh_comment { color: #586e75; }
 pre.sh_sourceCode .sh_number { color: #6c71c4; }
 pre.sh_sourceCode .sh_cbracket { color: #dc322f; }
 pre.sh_sourceCode .sh_symbol { color: #dc322f; }
+
+.hide { display: none; }
+
+.bullets > ul > li {
+  margin-left: 0;
+}
+
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

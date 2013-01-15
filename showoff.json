@@ -1,6 +1,10 @@
 {
   "name": "Lessons From Writing an API Gem",
   "sections": [
-    "one"
+    "intro",
+    "starting",
+    "working",
+    "extra_credit",
+    "outro"
   ]
 }
