@@ -6,9 +6,12 @@
 ###### How is the API structured?
 
 !SLIDE
-image of context.io doc sidebar here
+![Context.IO API Docs](cio-api_words.png)
 
-!SLIDE bullets incremental
+!SLIDE
+![Context.IO API Shapes](cio-api_tree.png)
+
+!SLIDE
 ###### Translation, Not Transliteration
 
 !SLIDE
