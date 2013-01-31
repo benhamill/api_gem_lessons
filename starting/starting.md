@@ -24,9 +24,9 @@ example of class or structure difference here
 ###### ↓
 
     @@@ ruby
-    meeting.awesome? #=> true
-    meeting.name #=> "Austin.rb"
-    meeting.created_at
+    meet_up.awesome? #=> true
+    meet_up.name #=> "Austin.rb"
+    meet_up.created_at
       #=> 2011-04-21 07:00:00 -0500
 
 !SLIDE bullets incremental
