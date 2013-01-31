@@ -15,7 +15,7 @@
 ###### Translation, Not Transliteration
 
 !SLIDE
-example of class or structure difference here
+![Context.IO API Shapes](cio-api_tree.png)
 
 !SLIDE
     {
